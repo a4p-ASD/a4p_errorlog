@@ -1,0 +1,46 @@
+
+
+vhosts-configuration:
+
+
+	/etc/httpd/conf.d/
+	
+		error_logs.conf
+		
+			
+<Directory "/var/www/vhosts/_a4p_apache_logs">
+
+	Options Indexes MultiViews FollowSymLinks
+	AllowOverride None
+	Order allow,deny
+	Allow from all
+
+</Directory>
+
+
+
+
+	/etc/httpd/conf.d/
+	
+		oxid-develop.apps4print.com.conf
+
+
+# Virtual hosts oxid-develop.apps4print.com
+
+<VirtualHost *>
+	ServerName				oxid-develop.apps4print.com
+	ServerAlias				oxid-develop.apps4print.com
+	DocumentRoot			/var/www/vhosts/oxid-develop.apps4print.com
+	ErrorLog				/var/www/vhosts/_a4p_apache_logs/oxid-develop/error_log
+	CustomLog				/var/www/vhosts/_a4p_apache_logs/oxid-develop/access_log combined
+</VirtualHost>
+
+
+
+mkdir /var/www/vhosts/_a4p_apache_logs
+
+chown -R apache.apache /var/www/vhosts/_a4p_apache_logs/
+
+chmod -R 555 /var/www/vhosts/_a4p_apache_logs/
+
+chmod -R o+x /var/www/vhosts/_a4p_apache_logs/
