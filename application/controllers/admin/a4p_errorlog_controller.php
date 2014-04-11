@@ -19,13 +19,13 @@
 // ------------------------------------------------------------------------------------------------
 // ------------------------------------------------------------------------------------------------
 
-class a4p_errorlog extends oxAdminView {
+class a4p_errorlog_controller extends oxAdminView {
 	
 	// ------------------------------------------------------------------------------------------------
 	// ------------------------------------------------------------------------------------------------
 	
 	
-	protected $_sThisTemplate					= 'a4p_errorlog.tpl';
+	protected $_sThisTemplate					= 'a4p_errorlog_main.tpl';
 	
 	
 	protected $s_logfile_abs					= null;
@@ -40,7 +40,7 @@ class a4p_errorlog extends oxAdminView {
 		
 		
 		if ( is_null( $this->s_logfile_abs ) )
-			$this->s_logfile_abs				= oxRegistry::getConfig()->getConfigParam( "a4p_logfile_abs" );
+			$this->s_logfile_abs				= oxRegistry::getConfig()->getConfigParam( "a4p_errorlog_logfile_abs" );
 
 
 		if ( $this->s_logfile_abs )
@@ -178,23 +178,23 @@ class a4p_errorlog extends oxAdminView {
 	
 	public function echo_filesize( $size, $target_format = false ) {
 		
-		$a = array( "Byte", "KB", "MB", "GB", "TB", "PB" );
+		$a										= array( "Byte", "KB", "MB", "GB", "TB", "PB" );
 		
 		if ( $target_format ) {
-			for( $i = 0, $pos = - 1; $i < count( $a ); $i ++, $pos ++ ) {
+			for( $i = 0, $pos = -1; $i < count( $a ); $i++, $pos++ ) {
 				if ( strtoupper( $target_format ) != strtoupper( $a[ $i ] ) )
-					$size /= 1024;
+					$size						/= 1024;
 				else
-					$i = count( $a );
+					$i							= count( $a );
 			}
 		} else {
 			
-			$pos = 0;
+			$pos								= 0;
 			// while ($size >= 1024) {
 			while( $size >= 1000 ) {
 				// size /= 1024;
-				$size /= 1000;
-				$pos ++;
+				$size							/= 1000;
+				$pos++;
 			}
 		}
 		

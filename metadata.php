@@ -25,8 +25,8 @@ $aModule = array(
 	'id'			=> 'a4p_errorlog',
 	'title'			=> 'apps4print - a4p_errorlog',
 	'description'	=> array(
-		'de'					=> 'apps4print a4p_errorlog', 
-		'en'					=> 'apps4print a4p_errorlog'
+		'de'									=> 'apps4print a4p_errorlog', 
+		'en'									=> 'apps4print a4p_errorlog'
 	),
 	'lang'			=> 'de',
 	'thumbnail'		=> 'out/img/apps4print/a4p_logo.jpg',
@@ -37,15 +37,15 @@ $aModule = array(
 	'extend'	  	=> array(
 	),
 	'files'			=> array(
-		'a4p_errorlog'							=> 'apps4print/a4p_errorlog/application/controllers/admin/a4p_errorlog.php'
+		'a4p_errorlog_controller'				=> 'apps4print/a4p_errorlog/application/controllers/admin/a4p_errorlog_controller.php'
 	),
 	'blocks'		=> array(
 	),
 	'settings'		=> array(
-		array( 'group' => 'main',	'name' => 'a4p_logfile_abs',	'type' => 'str',	'value' => '/var/log/httpd/errorlog' )
+		array( 'group' => 'main',	'name' => 'a4p_errorlog_logfile_abs',	'type' => 'str',	'value' => '/var/log/httpd/errorlog' )
 	),
 	'templates'		=> array(
-		'a4p_errorlog.tpl'						=> 'apps4print/a4p_errorlog/application/views/admin/tpl/a4p_errorlog.tpl'
+		'a4p_errorlog_main.tpl'					=> 'apps4print/a4p_errorlog/application/views/admin/tpl/a4p_errorlog_main.tpl'
 	)
 );
 
