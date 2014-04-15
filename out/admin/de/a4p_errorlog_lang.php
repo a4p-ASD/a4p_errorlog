@@ -26,7 +26,7 @@ $aLang = array(
 
 	'charset'									=> 'UTF-8',
 
-	'a4pToolbox'								=> "apps4print Toolbox <img src='http://www.apps4print.com/images/_a4p_ToolboxLogo.gif' border='0' width='12' height='12'>",
+	'a4p_TOOLBOX'								=> "apps4print Toolbox <img src='http://www.apps4print.com/images/_a4p_ToolboxLogo.gif' border='0' width='12' height='12'>",
 
 	'a4p_TOOLBOX_ERRORLOG'						=> 'PHP-Fehler anzeigen',
 

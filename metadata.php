@@ -42,7 +42,7 @@ $aModule = array(
 	'blocks'		=> array(
 	),
 	'settings'		=> array(
-		array( 'group' => 'main',	'name' => 'a4p_errorlog_logfile_abs',	'type' => 'str',	'value' => '/var/log/httpd/errorlog' )
+		array( 'group' => 'a4p_main',	'name' => 'a4p_errorlog_logfile_abs',	'type' => 'str',	'value' => '/var/log/httpd/errorlog' )
 	),
 	'templates'		=> array(
 		'a4p_errorlog_main.tpl'					=> 'apps4print/a4p_errorlog/application/views/admin/tpl/a4p_errorlog_main.tpl'
