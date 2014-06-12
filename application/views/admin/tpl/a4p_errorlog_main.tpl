@@ -1,5 +1,23 @@
 
-[{* ------------------------------------------------------------------------------------------- *}]
+
+[{*
+ *	@author:	a4p ASD / Andreas Dorner
+ *	@company:	apps4print / page one GmbH, Nürnberg, Germany
+ *
+ *
+ *	@version:	1.0.0
+ *	@date:		10.04.2014
+ *
+ *
+ *	a4p_errorlog_main.tpl
+ *
+ *	apps4print - a4p_errorlog - display php errors in OXID eShop
+ *
+ *}]
+
+[{*---------------------------------------------------------------------------------------------*}]
+[{*		apps4print																				*}]
+[{*---------------------------------------------------------------------------------------------*}]
 
 
 [{include file="headitem.tpl" title="GENERAL_ADMIN_TITLE"|oxmultilangassign}]

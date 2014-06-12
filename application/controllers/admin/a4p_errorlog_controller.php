@@ -2,18 +2,18 @@
 
 /**
  *	@author:	a4p ASD / Andreas Dorner
-*	@company:	apps4print / page one GmbH, Nürnberg, Germany
-*
-*
-*	@version:	1.0.0
-*	@date:		09.04.2014
-*
-*
-*	metadata.php
-*
-*	apps4print - a4p_errorlog - display php errors in OXID eShop
-*
-*/
+ *	@company:	apps4print / page one GmbH, Nürnberg, Germany
+ *
+ *
+ *	@version:	1.0.0
+ *	@date:		09.04.2014
+ *
+ *
+ *	metadata.php
+ *
+ *	apps4print - a4p_errorlog - display php errors in OXID eShop
+ *
+ */
 
 // ------------------------------------------------------------------------------------------------
 // ------------------------------------------------------------------------------------------------
