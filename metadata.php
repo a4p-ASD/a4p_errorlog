@@ -37,15 +37,15 @@ $aModule = array(
 	'extend'	  	=> array(
 	),
 	'files'			=> array(
-		'a4p_errorlog_controller'				=> 'apps4print/a4p_errorlog/application/controllers/admin/a4p_errorlog_controller.php'
+		'a4p_errorlog_controller'				=> 'apps4print/a4p_errorlog/controllers/admin/a4p_errorlog_controller.php'
 	),
 	'blocks'		=> array(
 	),
 	'settings'		=> array(
-		array( 'group' => 'a4p_main',	'name' => 'a4p_errorlog_logfile_abs',	'type' => 'str',	'value' => '/var/log/httpd/errorlog' )
+		array( 'group' => 'a4p_main',	'name' => 'a4p_errorlog_logfile_abs',	'type' => 'str',	'value' => '/var/log/httpd/error_log' )
 	),
 	'templates'		=> array(
-		'a4p_errorlog_main.tpl'					=> 'apps4print/a4p_errorlog/application/views/admin/tpl/a4p_errorlog_main.tpl'
+		'a4p_errorlog_main.tpl'					=> 'apps4print/a4p_errorlog/views/admin/tpl/a4p_errorlog_main.tpl'
 	)
 );
 
