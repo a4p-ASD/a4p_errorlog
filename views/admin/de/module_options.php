@@ -5,7 +5,7 @@
  *	@company:	apps4print / page one GmbH, Nürnberg, Germany
  *
  *
- *	@version:	1.0.0
+ *	@version:	1.0.1
  *	@date:		11.04.2014
  *
  *

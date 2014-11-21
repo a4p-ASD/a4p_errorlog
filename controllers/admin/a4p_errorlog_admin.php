@@ -5,11 +5,11 @@
  *	@company:	apps4print / page one GmbH, Nürnberg, Germany
  *
  *
- *	@version:	1.0.0
+ *	@version:	1.0.1
  *	@date:		09.04.2014
  *
  *
- *	metadata.php
+ *	a4p_errorlog_admin.php
  *
  *	apps4print - a4p_errorlog - display php errors in OXID eShop
  *
@@ -19,13 +19,13 @@
 // ------------------------------------------------------------------------------------------------
 // ------------------------------------------------------------------------------------------------
 
-class a4p_errorlog_controller extends oxAdminView {
+class a4p_errorlog_admin extends oxAdminView {
 	
 	// ------------------------------------------------------------------------------------------------
 	// ------------------------------------------------------------------------------------------------
 	
 	
-	protected $_sThisTemplate					= 'a4p_errorlog_main.tpl';
+	protected $_sThisTemplate					= 'a4p_errorlog_admin_main.tpl';
 	
 	
 	protected $s_logfile_abs					= null;

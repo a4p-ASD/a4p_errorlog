@@ -2,7 +2,7 @@
 <OX>
   <OXMENU id="NAVIGATION_ESHOPADMIN">
       <MAINMENU id="mxservice">
-            <SUBMENU id="a4p_TOOLBOX_ERRORLOG" cl="a4p_errorlog_controller">
+            <SUBMENU id="a4p_TOOLBOX_ERRORLOG" cl="a4p_errorlog_admin">
             </SUBMENU>
         </MAINMENU>
   </OXMENU>

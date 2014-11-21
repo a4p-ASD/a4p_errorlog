@@ -5,7 +5,7 @@
  *	@company:	apps4print / page one GmbH, Nürnberg, Germany
  *
  *
- *	@version:	1.0.0
+ *	@version:	1.0.1
  *	@date:		09.04.2014
  *
  *
@@ -19,7 +19,7 @@
 // apps4print
 // ------------------------------------------------------------------------------------------------
 
-$sMetadataVersion = '1.0';
+$sMetadataVersion	= '1.0';
 
 $aModule = array(
 	'id'			=> 'a4p_errorlog',
@@ -37,7 +37,7 @@ $aModule = array(
 	'extend'	  	=> array(
 	),
 	'files'			=> array(
-		'a4p_errorlog_controller'				=> 'apps4print/a4p_errorlog/controllers/admin/a4p_errorlog_controller.php'
+		'a4p_errorlog_admin'					=> 'apps4print/a4p_errorlog/controllers/admin/a4p_errorlog_admin.php'
 	),
 	'blocks'		=> array(
 	),
@@ -45,7 +45,7 @@ $aModule = array(
 		array( 'group' => 'a4p_main',	'name' => 'a4p_errorlog_logfile_abs',	'type' => 'str',	'value' => '/var/log/httpd/error_log' )
 	),
 	'templates'		=> array(
-		'a4p_errorlog_main.tpl'					=> 'apps4print/a4p_errorlog/views/admin/tpl/a4p_errorlog_main.tpl'
+		'a4p_errorlog_admin_main.tpl'			=> 'apps4print/a4p_errorlog/views/admin/tpl/a4p_errorlog_admin_main.tpl'
 	)
 );
 
