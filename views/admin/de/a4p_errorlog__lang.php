@@ -28,7 +28,7 @@ $aLang = array(
 
 	'a4p_TOOLBOX'								=> "apps4print Toolbox <img src='http://www.apps4print.com/images/_a4p_ToolboxLogo.gif' border='0' width='12' height='12'>", 
 
-	'a4p_TOOLBOX_ERRORLOG'						=> 'PHP-Fehler anzeigen', 
+	'a4p_TOOLBOX_ERRORLOG'						=> "<img src='http://www.apps4print.com/images/_a4p_ToolboxLogo.gif' border='0' width='12' height='12'> PHP-Fehler anzeigen", 
 
 	'a4p_ERRORLOG_HEADLINE'						=> 'Die folgenden Fehlermeldungen sind im PHP-Errorlog aufgef&uuml;hrt:', 
 	'a4p_ERRORLOG_ANZ_LINES_INFO'				=> 'Es werden nur die letzten __ANZ_LINES__ Meldungen ausgegeben!', 
