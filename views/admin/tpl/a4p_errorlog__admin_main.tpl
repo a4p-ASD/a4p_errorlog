@@ -9,7 +9,7 @@
  *	@date:		10.04.2014
  *
  *
- *	a4p_errorlog_admin_main.tpl
+ *	a4p_errorlog__admin_main.tpl
  *
  *	apps4print - a4p_errorlog - display php errors in OXID eShop
  *

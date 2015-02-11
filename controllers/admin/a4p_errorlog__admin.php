@@ -9,7 +9,7 @@
  *	@date:		09.04.2014
  *
  *
- *	a4p_errorlog_admin.php
+ *	a4p_errorlog__admin.php
  *
  *	apps4print - a4p_errorlog - display php errors in OXID eShop
  *
@@ -19,13 +19,13 @@
 // ------------------------------------------------------------------------------------------------
 // ------------------------------------------------------------------------------------------------
 
-class a4p_errorlog_admin extends oxAdminView {
+class a4p_errorlog__admin extends oxAdminView {
 	
 	// ------------------------------------------------------------------------------------------------
 	// ------------------------------------------------------------------------------------------------
 	
 	
-	protected $_sThisTemplate					= 'a4p_errorlog_admin_main.tpl';
+	protected $_sThisTemplate					= 'a4p_errorlog__admin_main.tpl';
 	
 	
 	protected $s_logfile_abs					= null;
@@ -40,7 +40,7 @@ class a4p_errorlog_admin extends oxAdminView {
 		
 		
 		if ( is_null( $this->s_logfile_abs ) )
-			$this->s_logfile_abs				= oxRegistry::getConfig()->getConfigParam( "a4p_errorlog_logfile_abs" );
+			$this->s_logfile_abs				= oxRegistry::getConfig()->getConfigParam( "a4p_errorlog__logfile_abs" );
 
 
 		if ( $this->s_logfile_abs )
