@@ -5,8 +5,8 @@
  *	@company:	apps4print / page one GmbH, Nürnberg, Germany
  *
  *
- *	@version:	1.0.1
- *	@date:		09.04.2014
+ *	@version:	1.0.2
+ *	@date:		09.03.2015
  *
  *
  *	a4p_errorlog__admin.php
