@@ -30,3 +30,7 @@ $aLang = array(
 	'SHOP_MODULE_a4p_errorlog__logfile_abs'			=> 'Log-Datei',
 	'HELP_SHOP_MODULE_a4p_errorlog__logfile_abs'	=> 'bitte absoluten Pfad inklusive Dateiname angeben ( z.B.: /var/log/httpd/error_log oder /var/www/vhosts/_a4p_apache_logs/oxid-develop/error_log )',
 );
+
+// ------------------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------------------
